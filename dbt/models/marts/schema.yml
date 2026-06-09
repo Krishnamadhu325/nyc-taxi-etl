@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: mart_trips_daily
+    description: Daily aggregated NYC taxi trip metrics
+    columns:
+      - name: trip_date
+        tests: [not_null]
+      - name: total_trips
+        tests: [not_null]

@@ -1,0 +1,10 @@
+gcp-key.json
+*.json
+dbt/profiles.yml
+.env
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+airflow.db
+airflow.cfg

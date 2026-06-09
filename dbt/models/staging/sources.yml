@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: nyc_taxi
+    project: nyc-taxi-etl-498205
+    dataset: nyc_taxi
+    tables:
+      - name: raw_trips
+        description: Raw NYC TLC yellow taxi trip records
