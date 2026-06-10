@@ -14,6 +14,9 @@ NYC TLC Data → Apache Airflow (orchestration) → BigQuery (raw_trips)
                                                        ↓
                                             Looker Studio (dashboard)
 
+## Dashboard Preview
+![Dashboard](assets/dashboard.png)
+
 ## Stack
 
 | Layer | Tool |
